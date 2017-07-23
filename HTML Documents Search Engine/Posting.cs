@@ -1,20 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace HTML_Documents_Search_Engine
 {
-    public partial class Form1 : Form
+    public class Posting
     {
-        public Form1()
+        public int docid = 0;
+        public int tf = 0;
+
+        public Posting(int a, int b)
         {
-            InitializeComponent();
+            docid = a;
+            tf = b;
         }
     }
 }
